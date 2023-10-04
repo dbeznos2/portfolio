@@ -1,0 +1,23 @@
+body,
+html {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 40px;
+}
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    gap: 40px;
+}
+.music_albums{
+    color: white;
+    justify-self: center;
+    font-size: 45px;
+}
