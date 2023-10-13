@@ -1,0 +1,36 @@
+body,
+html {
+     margin: 0px;
+     padding: 0px;
+}
+
+main {
+     box-sizing: border-box;
+     height: 100vh;
+}
+.grid {
+    height: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+.About {
+    margin: 0px 0px;
+    justify-self: center;
+    font-family: Helvetica;
+    font-size: 70px; 
+}
+.about_text {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin-bottom: -60px;
+}
+    
