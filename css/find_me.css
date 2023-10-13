@@ -1,0 +1,43 @@
+body,
+html {
+     margin: 0px;
+     padding: 0px;
+}
+
+main {
+     box-sizing: border-box;
+     height: 100vh;
+     padding: 40px;
+}
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto 1fr 1fr;
+    gap:30px;
+}
+.how {
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    grid-area: 1 / 1 / 2 / 2; 
+    margin: -4px 120px;
+}
+
+.address {
+    grid-area: 1 / 1 / 2 / 2; 
+    margin-top: 40px;
+    margin-bottom: -1px;
+    margin-left: 120px;
+    display: flex;
+    align-self: end;
+}
+
+.maps {
+    grid-area: 1/ 1 / 2 / 2; 
+}
+.real_map {
+    grid-area: 2 / 1 / 3 / 2;
+}
