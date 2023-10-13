@@ -13,17 +13,15 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    gap: 40px;
 }
-.music_albums{
-    color: white;
+.Logos {
     justify-self: center;
     font-family: Helvetica;
     font-size: 50px; 
-}
-
-.items {
-    grid-area: 2 / 1 / 2 / 2;
+}.iteams_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     justify-self: center;
-    padding-bottom:75px;
 }
